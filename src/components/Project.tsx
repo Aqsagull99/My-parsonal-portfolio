@@ -17,6 +17,7 @@ const Projects = () => {
               delete items efficiently.
             </p>
           </div>
+
           <div className={styles.projectImage}>
             <Image
               src="/p-todo1.jpg"
@@ -69,6 +70,44 @@ const Projects = () => {
         {/* card 4 */}
         <div className={styles.projectCardReverse}>
           <div className={styles.projectIntro}>
+            <h3>General E-commerce</h3>
+
+           
+            <p>
+           An e-commerce website designed to showcase products, provide a seamless shopping experience, and offer secure payment and contact options, ensuring a professional and user-friendly interface.
+            </p>
+          </div>
+          <div className={styles.projectImage}>
+            <Image
+              src="/ecosnap.png"
+              alt="Project 1 Image"
+              width={500}
+              height={300}
+            />
+          </div>
+        </div>
+        {/* card 4 */}
+        <div className={styles.projectCardReverse}>
+          <div className={styles.projectIntro}>
+            <h3>Blog Of Post</h3>
+
+            
+            <p>
+           A blog platform designed to share engaging posts, highlight featured articles, and provide easy navigation and contact options, offering a professional and reader-friendly interface.
+            </p>
+          </div>
+          <div className={styles.projectImage}>
+            <Image
+              src="/blogsnap.png"
+              alt="Project 1 Image"
+              width={500}
+              height={300}
+            />
+          </div>
+        </div>
+        {/* card 4 */}
+        <div className={styles.projectCardReverse}>
+          <div className={styles.projectIntro}>
             <h3>Client-wesbite</h3>
 
             <p>
@@ -85,9 +124,32 @@ const Projects = () => {
             />
           </div>
         </div>
+        {/* card 4 */}
+        <div className={styles.projectCardReverse}>
+          <div className={styles.projectIntro}>
+            <h3>blogging website</h3>
+
+            
+            <p>
+           A blogging website designed to showcase articles, share insights, and engage readers, offering a professional and user-friendly interface.
+           </p>
+
+          </div>
+          <div className={styles.projectImage}>
+            <Image
+              src="/blogingsnap.png"
+              alt="Project 1 Image"
+              width={500}
+              height={300}
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
 export default Projects;
+
+
+
