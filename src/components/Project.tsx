@@ -79,7 +79,7 @@ const Projects = () => {
           </div>
           <div className={styles.projectImage}>
             <Image
-              src="/ecosnap.png"
+              src="/ecosnap.PNG"
               alt="Project 1 Image"
               width={500}
               height={300}
@@ -98,7 +98,7 @@ const Projects = () => {
           </div>
           <div className={styles.projectImage}>
             <Image
-              src="/blogsnap.png"
+              src="/blogsnap.PNG"
               alt="Project 1 Image"
               width={500}
               height={300}
@@ -137,7 +137,7 @@ const Projects = () => {
           </div>
           <div className={styles.projectImage}>
             <Image
-              src="/blogingsnap.png"
+              src="/blogingsnap.PNG"
               alt="Project 1 Image"
               width={500}
               height={300}
