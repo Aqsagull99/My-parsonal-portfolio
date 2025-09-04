@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black text-blue-800 p-4 shadow-lg">
+    <header className="bg-black text-[#FFFFFF] p-4 shadow-lg">
       <div className=" container mx-auto flex items-center justify-between">
         <div className="flex items-center text-lg font-semibold font-serif">
           {/* <Image

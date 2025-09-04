@@ -35,7 +35,7 @@
 }
 
 .heading span {
-  color: blue;
+   color: rgb(18, 177, 240);;
 }
 
 .footerAbout h2,
@@ -62,6 +62,30 @@
     transform: translateY(0);
   }
 }
+.Reserved{
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.6),
+                 0 0 20px rgba(0, 123, 255, 0.4);
+    animation: textGlow 1.5s infinite alternate; /* Glow effect */
+  
+
+
+
+} 
+
+/* Glow animation */
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 10px rgba(0, 123, 255, 0.6),
+                     0 0 20px rgba(0, 123, 255, 0.4);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(0, 123, 255, 0.8),
+                     0 0 30px rgba(0, 123, 255, 0.6);
+    }
+}
+
+
 
 .footergif {
   width: 80%;

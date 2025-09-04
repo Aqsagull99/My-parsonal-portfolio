@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
 
           <p className={styles.footerEmail}>aqsa.gull.dev.ai99@gmail.com</p>
         </div>
-        <p>© 2024 Aqsa Gull. All Rights Reserved.</p>
+        <p className={styles.Reserved}>© 2024 Aqsa Gull. All Rights Reserved.</p>
       </div>
     </footer>
   );

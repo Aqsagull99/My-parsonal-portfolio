@@ -20,16 +20,35 @@
     color: #fff;
     z-index: 1;
     overflow: hidden; 
-    text-shadow: 7px 2px 5px rgba(0, 0, 255, 0.9);
+    text-shadow: 0 0 10px rgba(0, 123, 255, 0.6),
+                 0 0 20px rgba(0, 123, 255, 0.4);
+    animation: textGlow 1.5s infinite alternate; /* Glow effect */
+  
+
+
+
+} 
+
+/* Glow animation */
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 10px rgba(0, 123, 255, 0.6),
+                     0 0 20px rgba(0, 123, 255, 0.4);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(0, 123, 255, 0.8),
+                     0 0 30px rgba(0, 123, 255, 0.6);
+    }
 }
 
 /* Adjust text shadow for spans */
 .heading1 span,
 .heading2 span,
 .paragraph span {
-    color: blue; 
+    color: #FFFFFF; 
     text-shadow: 4px 5px 10px rgba(255, 255, 255, 0.6);
 }
+
 
 .heading1:before, .heading2:before, .paragraph:before {
     content: ''; 
@@ -86,7 +105,7 @@
     color: #fff; 
     position: relative; 
     overflow: hidden; 
-}
+} *
 
 
 .button1, .button2 {
